@@ -1,0 +1,32 @@
+param_name,param_value
+test_loss,0.39210033416748047
+test_acc_macro,0.9047619104385376
+test_acc_micro,0.9305555820465088
+test_rocauc,0.9349693059921265
+test_f1_macro,0.920366644859314
+test_f1_micro,0.9305555820465088
+test_mcc,0.8877835273742676
+custom_name,1_run
+seed,42
+epochs,300
+min_epochs,60
+gpu,[0]
+precision,32-true
+fast_dev_run,False
+overfit_batches ,0
+dataset_name,medetec
+batch_size,32
+val_batch_size,32
+test_batch_size,32
+val_split,0.1
+test_split,0.2
+keep_classes,"['pressure-ulcer', 'leg-ulcer-images', 'foot-ulcers']"
+min_samples,0
+augmentation,False
+keep_aspect_ratio,True
+keep_aspect_ratio_eval,True
+num_workers,-1
+backbone,vicregl_resnet
+num_mlp_layers,1
+num_mlp_neurons,512
+freeze_backbone,False
