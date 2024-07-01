@@ -46,7 +46,9 @@ We used two datasets in our work.
 ### Training
 
 * For example to replicate the best ablation result on the AZH dataset, run the following command:  
-`python -m src.training.training --custom_name my_replicated_experiment --dataset_name azh --backbone vicregl_convnext_xlarge --freeze_backbone true --num_mlp_layers 1 --gpu [0] --min_epochs 60 --epochs 300 --num_workers -1`
+```python
+python -m src.training.training --custom_name my_replicated_experiment --dataset_name azh --backbone vicregl_convnext_xlarge --freeze_backbone true --num_mlp_layers 1 --gpu [0] --min_epochs 60 --epochs 300 --num_workers -1
+```
 * For more information on the arguments, run `python -m src.training.training -h`
 
 ### Evaluation
