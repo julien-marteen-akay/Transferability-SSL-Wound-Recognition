@@ -58,5 +58,7 @@ python -m src.training.training --custom_name my_replicated_experiment --dataset
 * The results of the test and all the hyperparameters of the training process will be saved in an `experiment_info.csv` file.
 * Results will be written into a folder named `out` created in the root directory of this project. Its overall directory
 structure will be the same as in the folder `ablation_results`, i.e. `out/<dataset_name>/<backbone>/<custom_name>-<date-time stamp>`
+* In `ablation_results/full_evaluation.ipynb` you can find all results, grouped conveniently based on dataset and backbone.
+Moreover, one can see how to load in models after training to analyze them further via Grad-CAM.
 
 ## Citation
